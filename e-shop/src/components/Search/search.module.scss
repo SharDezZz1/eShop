@@ -1,0 +1,35 @@
+.search {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+    &__img {
+        background-color: #ffffff;
+        display: flex;
+        height: 30px;
+        padding-left: 5px;
+        border-radius: 5px 0 0 5px;
+        align-items: center;
+    }
+
+    &__input {
+        border: none;
+        background-color: #ffffff;
+        font-size: 16px;
+        outline: none;
+        height: 30px;
+        padding: 0;
+        padding-left: 5px;
+    }
+
+    &__btn {
+        height: 30px;
+        background-color: #FF842C;
+        border: none;
+        outline: none;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+    }
+}
